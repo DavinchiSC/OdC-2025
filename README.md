@@ -1,12 +1,15 @@
-# Lab Org. y Arq. de Computadoras
 
-![Demostración de Animación en Framebuffer](/media/lab2.mp4)
+# Lab Org. y Arq. de Computadoras
 
 * Configuración de pantalla: `640x480` pixels, formato `ARGB` 32 bits.
 * El registro `X0` contiene la dirección base del FrameBuffer (Pixel 1).
 * El código de cada consigna debe ser escrito en el archivo _app.s_.
 * El archivo _start.s_ contiene la inicialización del FrameBuffer **(NO EDITAR)**, al finalizar llama a _app.s_.
 * El código de ejemplo pinta toda la pantalla un solo color.
+
+## Resultado
+
+![Demostración Framebuffer](/media/lab2.gif)
 
 ## Estructura
 
